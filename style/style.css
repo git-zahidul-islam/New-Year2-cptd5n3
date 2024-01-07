@@ -1,0 +1,165 @@
+/* common code */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.btn {
+    border: 0;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 3px;
+    font-size: 17px;
+    color: rgb(8, 171, 235);
+    font-weight: bold;
+    background-color: white;
+}
+/* header design */
+header {
+    background-image: url(../images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    height: 730px;
+}
+nav {
+    height: 100%;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 100px;
+    color: white;
+}
+.nav-section {
+    text-align: right;
+}
+.nav-section-title {
+    font-size: 85px;
+    font-weight: bold;
+}
+.nav-section-des {
+    line-height: 1.3;
+    margin-left: 130px;
+    font-size: 18px;
+}
+/* main design */
+main section {
+    /* margin: 200px 0; */
+    margin-top: 150px;
+}
+/* progress design */
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* margin-top: 200px; */
+}
+.progress img {
+    width: 450px;
+}
+.progress-list-container {
+    width: 400px;
+}
+.progress-title {
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.progress-des {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+.check-style {
+    padding: 0 5px;
+    color: #16D887;
+}
+.plan-item {
+    width: 300px;
+    padding: 10px 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan-item img {
+    width: 90px;
+}
+.plan-item .plan-item-title {
+    margin: 10px 0;
+}
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+}
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    /* margin-top: 200px; */
+    width: 70%;
+    margin: 0 auto;
+}
+.plan-title {
+    text-align: center;
+    font-size: 40px;
+}
+.plan-item-title {
+    font-size: 30px;
+}
+.plan-item-des {
+    font-size: 20px;
+}
+/* picture */
+.picture {
+    margin-bottom: 150px;
+}
+.picture-container {
+    margin: 0 auto;
+    width: 70%;
+    height: 250px;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-position: right bottom, center;
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 10px;
+    padding-right: 50px;
+}
+.picture-container-item {
+    padding: 50px 50px;
+    /* width: 350px; */
+}
+.picture-heading {
+    font-size: 30px;
+    color: white;
+}
+.pic-btn {
+    padding: 18px 40px;
+}
+/* footer  */
+footer {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.867);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+/* .footer-section {
+    width: 50%;
+}
+.footer-form {
+    width: 50%;
+} */
+.footer-des {
+    width: 400px;
+}
+.footer-title {
+    font-size: 40px;
+
+}
